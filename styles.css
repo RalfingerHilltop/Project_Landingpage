@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: firebrick;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #1f1293;
+    height: 80px;
+}
+
+.product-text {
+    margin: 36px;
+    color: #F9FAF8;
+    width: 400px;
+    
+    align-items: flex-start;
+}
+
+.container {
+    background-color: #1f1293;
+}
+
+.mid-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quote-section {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 60px 120px;
+}
+
+.bottom-section {
+    background-color: #3882F6;
+    margin: 48px;
+    border-radius: 12px;
+    color: #F9FAF8;
+    padding: 16px;
+}
+
+.call-to-action {
+    margin: 60px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px;
+    border:none;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 8px;
+}

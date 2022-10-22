@@ -7,28 +7,37 @@ body {
 
 ul {
     list-style: none;
+    
 }
 
 a {
     text-decoration: none;
     color: firebrick;
+    color: black;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    border: solid 2px firebrick;
 }
 
 .header-links {
     display: flex;
     justify-content: space-between;
     gap: 2em;
+    align-items: center;
+    
 }
 
 .container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 10px 129px;
+    border: solid 2px firebrick;
+
 }
 
 .product-text {
@@ -36,11 +45,29 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: solid 2px firebrick;
+
+}
+
+.hero-text {
+    color: #F9FAF8;
+    width: 400px;
+    margin-top: -24px;
+    border: solid 2px firebrick;
+
+    
 }
 
 h2 {
     font-weight: bold;
     font-size: 48px;
+}
+
+img {
+    max-width: 400px;
+    max-height: 200px;
+    border-radius: 15%;
+
 }
 
 .footer {
@@ -52,27 +79,35 @@ h2 {
     height: 80px;
 }
 
-.product-text {
-    margin: 36px;
-    color: #F9FAF8;
-    width: 400px;
-    
-    align-items: flex-start;
-}
-
 .container {
     background-color: #1f1293;
+    display: flex;
+    border: solid 2px firebrick;
+
 }
 
 .mid-section {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
+    justify-content: flex-start;
+    max-width: 800px;
+    align-items: stretch;
+    border: solid 2px firebrick;
+
+
 }
 
 .cards {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    width:200px;
+    height:200px;
+    gap: 3em;
+    border: solid 2px firebrick;
 }
 
 .quote-section {
@@ -80,19 +115,32 @@ h2 {
     font-style: italic;
     color: #1F2937;
     padding: 60px 120px;
+    
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .bottom-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #3882F6;
-    margin: 48px;
+    width: 800px;
+    height: 100px;
+    margin: 120px 150px 120px;
+
     border-radius: 12px;
     color: #F9FAF8;
-    padding: 16px;
+    padding: 32px;
 }
 
 .call-to-action {
     margin: 60px;
-}
+    
+
 
 button {
     background-color: #3882F6;

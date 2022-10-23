@@ -3,6 +3,7 @@
 body {
     display:flex;
     flex-direction: column;
+    font-family: 'Lato', sans-serif, Arial, Helvetica, sans-serif;
 }
 
 ul {
@@ -18,26 +19,38 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border: solid 2px firebrick;
 }
 
 .header-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 2em;
     align-items: center;
+    margin-right: 20px;
     
 }
 
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    color:#F9FAF8;
+}
+
+.hero-text {
+    margin: -60px 0 -40px 0;
+}
+
 .container {
+    background-color: #1f1293;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 129px;
-    border: solid 2px firebrick;
-
 }
 
 .product-text {
@@ -52,10 +65,7 @@ a {
 .hero-text {
     color: #F9FAF8;
     width: 400px;
-    margin-top: -24px;
-    border: solid 2px firebrick;
-
-    
+    margin-top: -60px;
 }
 
 h2 {
@@ -79,12 +89,6 @@ img {
     height: 80px;
 }
 
-.container {
-    background-color: #1f1293;
-    display: flex;
-    border: solid 2px firebrick;
-
-}
 
 .mid-section {
     display: flex;
@@ -121,6 +125,7 @@ img {
 .author {
     display: flex;
     justify-content: flex-end;
+    font-weight: 900;
 }
 
 .bottom-section {
@@ -128,18 +133,26 @@ img {
     justify-content: center;
     align-items: center;
     background-color: #3882F6;
-    width: 800px;
+    width: 600px;
     height: 100px;
-    margin: 120px 150px 120px;
-
     border-radius: 12px;
     color: #F9FAF8;
     padding: 32px;
+    border: solid 1px firebrick
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: center;
+    border: solid 4px firebrick;
 }
 
 .call-to-action {
     margin: 60px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
 
 button {
@@ -150,4 +163,5 @@ button {
     border-radius: 8px;
     font-size: 14px;
     margin-bottom: 8px;
+    width:120px;
 }

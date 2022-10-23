@@ -138,7 +138,8 @@ img {
     border-radius: 12px;
     color: #F9FAF8;
     padding: 32px;
-    border: solid 1px firebrick
+    border: solid 1px firebrick;
+    margin: 80px 0 80px 0;
 }
 
 .bottom-container {
@@ -148,12 +149,19 @@ img {
 }
 
 .call-to-action {
-    margin: 60px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-around;
+    align-items: space-around;
 }
 
+h4 {
+    margin-bottom: 0px;
+}
+
+.button2 {
+    border: solid 1px white;
+}
 
 button {
     background-color: #3882F6;
@@ -165,3 +173,4 @@ button {
     margin-bottom: 8px;
     width:120px;
 }
+
